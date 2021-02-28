@@ -1,11 +1,7 @@
-function getRandomLetter() {
-    const randCharCode = Math.floor(Math.random() * 255);
-
-    return String.fromCharCode(randCharCode);
+function getRandomNumber() {
+    return Math.floor(Math.random() * 100);
 }
 
-
-console.log(getRandomLetter());
-console.log(getRandomLetter());
-console.log(getRandomLetter());
-console.log(getRandomLetter());
+console.log(getRandomNumber());
+console.log(getRandomNumber());
+console.log(getRandomNumber());
