@@ -3,4 +3,9 @@ function getRandomLetter() {
 
     return String.fromCharCode(randCharCode);
 }
-getRandomNumber.js
+
+
+console.log(getRandomLetter());
+console.log(getRandomLetter());
+console.log(getRandomLetter());
+console.log(getRandomLetter());
